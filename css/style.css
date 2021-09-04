@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap');
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7B7B7B;
+}
+input, select, option{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+
+.header{
+    width: 100%;
+    min-height: 364px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+}
+.header .nav-link {
+    color: #fff!important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.header .navbar .active {
+    font-weight: 600;
+}
+.header .navbar .active:after {
+    color: #fff;
+    height: 3px;
+    display: block;
+    width: 50%;
+    background: #fff;
+    border-right: 1px white;
+    content: '';
+    margin: auto;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.title-tag{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.hero-sub-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.search{
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+.search button{
+    width: 100%;
+    height: 60px;
+    left: 995px;
+    top: 334px;
+    background: #F07987;
+    border-radius: 8px;
+}
+
+.main-content{
+    margin-top: 7rem;
+}
+.cards .card{
+    border-radius: 1rem;
+}
+.card-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+@media screen and (max-width: 760px) {    
+    .header .navbar .active:after {
+        margin: 0;
+    }
+    .search div{
+        margin-bottom: 1rem;
+    }
+}
